@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnVoltar"
+        android:text="Voltar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnCancelar"
+        android:text="Cancelar"
+        android:layout_toRightOf="@id/BtnVoltar"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnContinuar"
+        android:text="Continuar"
+        android:layout_toRightOf="@id/BtnCancelar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnPular"
+        android:text="Pular"
+        android:layout_below="@id/BtnVoltar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnConcluir"
+        android:text="Concluir"
+        android:layout_toRightOf="@id/BtnPular"
+        android:layout_below="@id/BtnVoltar"/>
+
+</RelativeLayout>
